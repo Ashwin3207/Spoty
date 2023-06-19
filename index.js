@@ -15,6 +15,12 @@ function play(a)
     document.getElementById('player').innerHTML='<audio autoplay controls id="play"><source id="sr" src="champagne.mp3" type="audio/ogg"></audio>';
     }
 }
+function list()
+{if((document.getElementById('playlist').style.display=="none"))
+document.getElementById('playlist').style.display="block";
+  else
+document.getElementById('playlist').style.display="none";
+}
 
 
 
