@@ -16,7 +16,5 @@ function play(a)
     }
 }
 
-document.getElementById("1").addEventListener("click",perfect);
-document.getElementById("2").addEventListener("click",suzume);
 
 
