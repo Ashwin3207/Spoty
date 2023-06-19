@@ -1,9 +1,3 @@
-function perfect()
-{
-}
-function suzume()
-{   
-}
 let a;
 function play(a)
 {   if(a==1)
