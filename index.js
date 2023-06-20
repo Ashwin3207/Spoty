@@ -20,14 +20,37 @@ function list() {
         document.getElementById('playlist').style.display = "none";
 }
 function play1() {
-    document.getElementById('intro').remove();
+    
     document.getElementById('play1').style.display='block';
+    document.getElementById('ab').style.display='none';
+    document.getElementById('intro').style.display='none';
+    document.getElementById('play2').style.display='none';
+    document.getElementById('play3').style.display='none';
+    
 }
 function play2() {
-
+    document.getElementById('ab').style.display='none';
+    document.getElementById('intro').style.display='none';
+    document.getElementById('play1').style.display='none';
+    document.getElementById('play2').style.display='block';
+    document.getElementById('play3').style.display='none';
 }
 function play3() {
+    document.getElementById('ab').style.display='none';
+    document.getElementById('intro').style.display='none';
+    document.getElementById('play1').style.display='none';
+    document.getElementById('play2').style.display='none';
+    document.getElementById('play3').style.display='block';
+    
 
+}
+function About()
+{
+    document.getElementById('intro').style.display='none';
+    document.getElementById('ab').style.display='block';
+    document.getElementById('play1').style.display='none';
+    document.getElementById('play2').style.display='none';
+    document.getElementById('play3').style.display='none';
 }
 
 
