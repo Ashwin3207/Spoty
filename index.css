@@ -134,5 +134,11 @@ display: flex;
  width: 250px;
     height: 20px;
 }
-
+#playlist
+{
+ margin:25px;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+ position: relative;
+ display: none;
+}
 
