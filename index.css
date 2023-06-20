@@ -141,4 +141,8 @@ display: flex;
  position: relative;
  display: none;
 }
+#play1
+{
+    display:none;
+}
 

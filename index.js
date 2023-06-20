@@ -20,7 +20,8 @@ function list() {
         document.getElementById('playlist').style.display = "none";
 }
 function play1() {
-    document.getElementById('list').innerHTML = '<div id="play1"><img src="perfect.jpg" height="100px" width="100px" id="1"  class="songs"  onclick=play(1)></img><img src="suzume.jpg" height="100px" width="100px" id="2" class="songs" onclick=play(2)></img><img src="champagne.jpg" height="100px" width="100px" id="3" class="songs" onclick="play(3)"></img></div>';
+    document.getElementById('intro').remove();
+    document.getElementById('play1').style.display='block';
 }
 function play2() {
 
