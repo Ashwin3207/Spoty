@@ -1,4 +1,5 @@
 let a;
+let pin=0;
 function play(a) {
     if (a == 11) {
         document.getElementById('ss').innerHTML = '<p>Perfect<br>by Ed Sheeran</p>';
@@ -73,8 +74,13 @@ function play2()
     document.getElementById('ab').style.display = "none";
 
 }
-function play3()
-{   if(document.getElementById('play2').style.display =="block")
+function play3(pin){
+if(pin==0)
+{
+    document.getElementById('play3').style.display = "none";
+}
+
+  if(document.getElementById('play2').style.display =="block")
 document.getElementById('play2').style.display = "none";
     if(document.getElementById('play1').style.display =="block")
     document.getElementById('play1').style.display = "none";
