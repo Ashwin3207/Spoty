@@ -1,17 +1,17 @@
 let a;
 function play(a) {
     if (a == 1) {
-        document.getElementById('ss').innerHTML = '<p>Perfect</p>';
+        document.getElementById('ss').innerHTML = '<p>Perfect<br>by Ed Sheeran</p>';
         document.getElementById('player').innerHTML = '<audio autoplay controls id="play"><source id="sr" src="perfect.mp3" type="audio/ogg"></audio>';
        
     }
     if (a == 2) {
-        document.getElementById('ss').innerHTML = '<p>Suzume</p>';
+        document.getElementById('ss').innerHTML = '<p>Suzume<br>by Radwimps</p>';
         document.getElementById('player').innerHTML = '<audio autoplay controls id="play"><source id="sr" src="suzume.mp3" type="audio/ogg"></audio>';
       
     }
     if (a == 3) {
-        document.getElementById('ss').innerHTML = '<p height="30px">Champagne Problems</p>';
+        document.getElementById('ss').innerHTML = '<p height="30px">Champagne Problems<br>by Taylor Swift</p>';
         document.getElementById('player').innerHTML = '<audio autoplay controls id="play"><source id="sr" src="champagne.mp3" type="audio/ogg"></audio>';
         
     }
