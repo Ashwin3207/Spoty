@@ -129,24 +129,21 @@ display: flex;
 {
     margin:0px;
     padding: 0px;
-    position: relative;
-    top:15px;
- width: 250px;
-    height: 20px;
+   
 }
 #playlist
 {
  margin:25px;
  font-family:Verdana, Geneva, Tahoma, sans-serif;
  position: relative;
- display: none;
-}
-#play1
-{
-    display:none;
+ display: block;
 }
 #ab
 {
-    display:none;
+    display: none;
+}
+#play1
+{
+    display: none;
 }
 

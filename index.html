@@ -29,15 +29,15 @@
         <ul>
             <li>Home</li>
             <li>Search</li>
-            <li onclick="About()">About</li>
+            <li>About</li>
         </ul>
-        <div onclick="list()">Playlists</div>
+        <div id="toggle">Playlists</div>
         <div id="playlist">
             <ul>
-                
-                <li onclick="play1()">Playlist 1</li>
-                <li onclick="play2()">Playlist 2</li>
-                <li onclick="play3()">Playlist 3</li>
+            
+                <li id="1">Playlist 1</li>
+                <li>Playlist 2</li>
+                <li>Playlist 3</li>
             </ul>
         </div>    
         <ul>
@@ -53,8 +53,8 @@
     </div>
         <h1 id="intro">Choose a playlist</h1>
         <div id="play1">
-            <img src="perfect.jpg" height="100px" width="100px" id="1"  class="songs"  onclick=play(1)></img>
-            <img src="suzume.jpg" height="100px" width="100px" id="2" class="songs" onclick=play(2)></img>
+            <img src="perfect.jpg" height="100px" width="100px" id="1"  class="songs"  onclick="play(1)"></img>
+            <img src="suzume.jpg" height="100px" width="100px" id="2" class="songs" onclick="play(2)"></img>
             <img src="champagne.jpg" height="100px" width="100px" id="3" class="songs" onclick="play(3)"></img>
         </div>
 </div>
@@ -66,9 +66,9 @@
         <source id="sr" src="test.mp3" type="audio/ogg">
         
       </audio>
-    
+    </div>
     
 </body>
-<script defer src="index.js">
+<script src="index.js">
 </script>
 </html>
