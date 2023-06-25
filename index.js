@@ -27,7 +27,6 @@ function list() {
 
 document.getElementById("toggle").addEventListener("click", list);
 document.getElementById("1").addEventListener("click", play1);
-document.getElementById("ab").addEventListener("click",ab);
 function play1()
 {
 
