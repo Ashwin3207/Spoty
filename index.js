@@ -32,15 +32,14 @@ function play1()
 {
 
  document.getElementById('play1').style.display = "block";
- if(document.getElementById('play1').style.display =="block")
- document.getElementById('play1').style.display = "none";
+ if(document.getElementById('ab').style.display =="block")
+ document.getElementById('ab').style.display = "none";
 }
 function ab()
 {
     document.getElementById('ab').style.display = "block";
     if(document.getElementById('play1').style.display =="block")
     document.getElementById('play1').style.display = "none";
-    if(document.getElementById('intro').style.display =="block")
     document.getElementById('intro').style.display = "none";
   
 }
