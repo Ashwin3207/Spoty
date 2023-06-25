@@ -4,7 +4,7 @@ if(pin==0)
 {
     document.getElementById('play3').style.display = "none";
 }
-
+ 
 
 function play(a) {
     if (a == 11) {
