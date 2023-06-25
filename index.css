@@ -124,14 +124,13 @@ display: flex;
 #ss
 {
     margin:0px;
-    padding: 0px;
+    
    height: 0px;
   
 }
 #ss>h3
 {
     height:60px;
-    
     position: relative;
     top:600px;
 }
