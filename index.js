@@ -1,20 +1,32 @@
 let a;
 function play(a) {
-    if (a == 1) {
+    if (a == 11) {
         document.getElementById('ss').innerHTML = '<p>Perfect<br>by Ed Sheeran</p>';
         document.getElementById('player').innerHTML = '<audio autoplay controls id="play"><source id="sr" src="perfect.mp3" type="audio/ogg"></audio>';
        
     }
-    if (a == 2) {
+    if (a == 12) {
         document.getElementById('ss').innerHTML = '<p>Suzume<br>by Radwimps</p>';
         document.getElementById('player').innerHTML = '<audio autoplay controls id="play"><source id="sr" src="suzume.mp3" type="audio/ogg"></audio>';
       
     }
-    if (a == 3) {
+    if (a == 13) {
         document.getElementById('ss').innerHTML = '<p height="30px">Champagne Problems<br>by Taylor Swift</p>';
         document.getElementById('player').innerHTML = '<audio autoplay controls id="play"><source id="sr" src="champagne.mp3" type="audio/ogg"></audio>';
-        
     }
+        if (a == 21) {
+            document.getElementById('ss').innerHTML = '<p height="30px">Raabta<br>by Pritam</p>';
+            document.getElementById('player').innerHTML = '<audio autoplay controls id="play"><source id="sr" src="Raabta.mp3" type="audio/ogg"></audio>';
+        }
+
+        if (a == 22) {
+            document.getElementById('ss').innerHTML = '<p height="30px">Jeena Jeena<br>by Atif Aslam</p>';
+            document.getElementById('player').innerHTML = '<audio autoplay controls id="play"><source id="sr" src="Jeena Jeena.mp3" type="audio/ogg"></audio>';
+        }
+        if (a == 23) {
+            document.getElementById('ss').innerHTML = '<p height="30px">Banjaara<br>by Arijit Singh</p>';
+            document.getElementById('player').innerHTML = '<audio autoplay controls id="play"><source id="sr" src="Banjaara.mp3" type="audio/ogg"></audio>';
+        }
     
 }
 function list() {
@@ -37,27 +49,33 @@ function play1()
  if(document.getElementById('ab').style.display =="block")
  document.getElementById('ab').style.display = "none";
  document.getElementById('empty').style.display="none";
+ if(document.getElementById('play2').style.display =="block")
+    document.getElementById('play2').style.display = "none";
+    document.getElementById('intro').style.display = "none";
 }
 function ab()
 {
     document.getElementById('ab').style.display = "block";
     if(document.getElementById('play1').style.display =="block")
     document.getElementById('play1').style.display = "none";
+    if(document.getElementById('play2').style.display =="block")
+    document.getElementById('play2').style.display = "none";
     document.getElementById('intro').style.display = "none";
     document.getElementById('empty').style.display="none";
   
 }
 function play2()
-{
+{   document.getElementById('play2').style.display = "block";
     if(document.getElementById('play1').style.display =="block")
     document.getElementById('play1').style.display = "none";
     document.getElementById('intro').style.display = "none";
-    document.getElementById('empty').style.display="block";
+    document.getElementById('empty').style.display="none";
     document.getElementById('ab').style.display = "none";
 
 }
 function play3()
-{
+{   if(document.getElementById('play2').style.display =="block")
+document.getElementById('play2').style.display = "none";
     if(document.getElementById('play1').style.display =="block")
     document.getElementById('play1').style.display = "none";
     document.getElementById('intro').style.display = "none";

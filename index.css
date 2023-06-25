@@ -93,7 +93,7 @@ display: flex;
 #play::-webkit-media-controls-panel
 {
     background-color: #232323;
-    
+      
 
     
 }
@@ -142,6 +142,7 @@ display: flex;
 }
 #play1
 {
+    margin:25px;
     display: none;
 }
 #intro
@@ -152,5 +153,11 @@ display: flex;
 {
     display:none;
 }
-
+#play2
+{   margin:25px;
+    display:none;
+    padding:20px;
+    font-size: 25px;
+    font-family: Arial;
+}
 
