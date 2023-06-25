@@ -147,4 +147,8 @@ display: flex;
 {
     display: none;
 }
+#intro
+{
+    display:block;
+}
 
