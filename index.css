@@ -129,6 +129,7 @@ display: flex;
 {
     margin:0px;
     padding: 0px;
+    
    
 }
 #playlist
@@ -136,7 +137,7 @@ display: flex;
  margin:25px;
  font-family:Verdana, Geneva, Tahoma, sans-serif;
  position: relative;
- display: block;
+ display: none;
 }
 #ab
 {

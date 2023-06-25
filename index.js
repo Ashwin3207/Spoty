@@ -27,8 +27,14 @@ function list() {
 
 document.getElementById("toggle").addEventListener("click", list);
 document.getElementById("1").addEventListener("click", play1);
+document.getElementById("ab").addEventListener("click",ab);
 function play1()
 {
 
  document.getElementById('play1').style.display = "block";
+}
+function ab()
+{
+    // document.getElementById('ab').style.display = "block";
+    console.log("about");
 }
