@@ -28,12 +28,15 @@ function list() {
 document.getElementById("toggle").addEventListener("click", list);
 document.getElementById("1").addEventListener("click", play1);
 document.getElementById("about").addEventListener("click", ab);
+document.getElementById("2").addEventListener("click", play2);
+document.getElementById("3").addEventListener("click", play3);
 function play1()
 {
 
  document.getElementById('play1').style.display = "block";
  if(document.getElementById('ab').style.display =="block")
  document.getElementById('ab').style.display = "none";
+ document.getElementById('empty').style.display="none";
 }
 function ab()
 {
@@ -41,5 +44,24 @@ function ab()
     if(document.getElementById('play1').style.display =="block")
     document.getElementById('play1').style.display = "none";
     document.getElementById('intro').style.display = "none";
+    document.getElementById('empty').style.display="none";
   
+}
+function play2()
+{
+    if(document.getElementById('play1').style.display =="block")
+    document.getElementById('play1').style.display = "none";
+    document.getElementById('intro').style.display = "none";
+    document.getElementById('empty').style.display="block";
+ 
+
+}
+function play3()
+{
+    if(document.getElementById('play1').style.display =="block")
+    document.getElementById('play1').style.display = "none";
+    document.getElementById('intro').style.display = "none";
+    document.getElementById('empty').style.display="block";
+ 
+
 }
