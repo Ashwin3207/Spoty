@@ -160,4 +160,12 @@ display: flex;
     font-size: 25px;
     font-family: Arial;
 }
+#pin
+{
+    display: none;
+
+}
+form{
+    color:black;
+}
 

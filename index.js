@@ -1,5 +1,11 @@
 let a;
 let pin=0;
+if(pin==0)
+{
+    document.getElementById('play3').style.display = "none";
+}
+
+
 function play(a) {
     if (a == 11) {
         document.getElementById('ss').innerHTML = '<p>Perfect<br>by Ed Sheeran</p>';
@@ -43,6 +49,15 @@ document.getElementById("1").addEventListener("click", play1);
 document.getElementById("about").addEventListener("click", ab);
 document.getElementById("2").addEventListener("click", play2);
 document.getElementById("3").addEventListener("click", play3);
+document.getElementById("submit").addEventListener("click",cpin);
+function cpin()
+{
+pin=document.getElementById('epin').value;
+console.log(pin);
+if(pin==3207)
+document.getElementById('play3').style.display = "block";
+
+}
 function play1()
 {
 
@@ -53,6 +68,8 @@ function play1()
  if(document.getElementById('play2').style.display =="block")
     document.getElementById('play2').style.display = "none";
     document.getElementById('intro').style.display = "none";
+    if(document.getElementById('pin').style.display =="block")
+document.getElementById('pin').style.display = "none";
 }
 function ab()
 {
@@ -63,6 +80,8 @@ function ab()
     document.getElementById('play2').style.display = "none";
     document.getElementById('intro').style.display = "none";
     document.getElementById('empty').style.display="none";
+    if(document.getElementById('pin').style.display =="block")
+document.getElementById('pin').style.display = "none";
   
 }
 function play2()
@@ -72,20 +91,20 @@ function play2()
     document.getElementById('intro').style.display = "none";
     document.getElementById('empty').style.display="none";
     document.getElementById('ab').style.display = "none";
+    if(document.getElementById('pin').style.display =="block")
+document.getElementById('pin').style.display = "none";
 
 }
 function play3(pin){
-if(pin==0)
-{
-    document.getElementById('play3').style.display = "none";
-}
+   
 
+    document.getElementById('pin').style.display = "block";
   if(document.getElementById('play2').style.display =="block")
 document.getElementById('play2').style.display = "none";
     if(document.getElementById('play1').style.display =="block")
     document.getElementById('play1').style.display = "none";
     document.getElementById('intro').style.display = "none";
-    document.getElementById('empty').style.display="block";
+    document.getElementById('empty').style.display="none";
     document.getElementById('ab').style.display = "none";
  
 
