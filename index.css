@@ -125,8 +125,16 @@ display: flex;
 {
     margin:0px;
     padding: 0px;
+   height: 0px;
+   bottom:600px;
+   position: relative;
+}
+#ss>h3
+{
+    height:60px;
     
-   
+    position: relative;
+    top:600px;
 }
 #playlist
 {
@@ -151,4 +159,5 @@ display: flex;
 {
     display:none;
 }
+
 
