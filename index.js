@@ -53,7 +53,7 @@ function play2()
     document.getElementById('play1').style.display = "none";
     document.getElementById('intro').style.display = "none";
     document.getElementById('empty').style.display="block";
- 
+    document.getElementById('ab').style.display = "none";
 
 }
 function play3()
@@ -62,6 +62,7 @@ function play3()
     document.getElementById('play1').style.display = "none";
     document.getElementById('intro').style.display = "none";
     document.getElementById('empty').style.display="block";
+    document.getElementById('ab').style.display = "none";
  
 
 }
