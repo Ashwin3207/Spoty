@@ -33,11 +33,11 @@
 }
 .nav
 {
-height: 650px;
+height: 82vh;
 }
 #list
 {
-height: 650px;
+height: 82vh;
 }
 #ss p
 {
@@ -51,4 +51,8 @@ height: 650px;
 #play
 {
     width:72%;
+}
+#play1
+{
+    margin:30px;
 }
