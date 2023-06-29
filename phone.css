@@ -15,10 +15,31 @@
 #playlist
 {
     margin:20px;
-    padding:0px;
+}
+#playlist ul li
+{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 5px;
 }
 .songs
 {   padding:0px;
     width:100px;
     height: 100px;
+}
+#container
+{
+    left:130px;
+}
+.nav
+{
+height: 520px;
+}
+#list
+{
+height: 520px;
+}
+#ss
+{
+    font-size: 10px;
 }
