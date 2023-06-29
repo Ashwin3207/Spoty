@@ -33,13 +33,22 @@
 }
 .nav
 {
-height: 520px;
+height: 730px;
 }
 #list
 {
-height: 520px;
+height: 730px;
 }
-#ss
+#ss p
 {
-    font-size: 10px;
+    font-size: 12px;
+    height: 0px;
+    position: relative;
+    top:16px;
+    left:5px;
+    
+}
+#play
+{
+    width:72%;
 }
