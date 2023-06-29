@@ -56,6 +56,7 @@ display: flex;
     background-color: rgb(44, 44, 44);
         height:600px;
         display: relative;
+       
 }
 
 #head
@@ -142,8 +143,9 @@ display: flex;
 }
 #play1
 {
-    margin:25px;
+    margin:30px;
     display: none;
+    margin-left:45px;
 }
 #intro
 {
@@ -167,5 +169,16 @@ display: flex;
 }
 form{
     color:black;
+}
+#play3
+{
+    display:none;
+}
+.songs
+{
+    width:130px;
+    height:130px;
+    padding:10px;
+    border-radius:25px;
 }
 

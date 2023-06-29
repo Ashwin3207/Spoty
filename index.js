@@ -1,9 +1,5 @@
 let a;
-let pin=0;
-if(pin==0)
-{
-    document.getElementById('play3').style.display = "none";
-}
+
  
 
 function play(a) {
@@ -20,6 +16,22 @@ function play(a) {
     if (a == 13) {
         document.getElementById('ss').innerHTML = '<p height="30px">Champagne Problems<br>by Taylor Swift</p>';
         document.getElementById('player').innerHTML = '<audio autoplay controls id="play"><source id="sr" src="champagne.mp3" type="audio/ogg"></audio>';
+    }
+    if (a == 14) {
+        document.getElementById('ss').innerHTML = '<p height="30px">Shivers<br>by Ed Sheeran</p>';
+        document.getElementById('player').innerHTML = '<audio autoplay controls id="play"><source id="sr" src="shivers.mp3" type="audio/ogg"></audio>';
+    }
+    if (a == 15) {
+        document.getElementById('ss').innerHTML = '<p height="30px">Galway Girl<br>by Ed Sheeran</p>';
+        document.getElementById('player').innerHTML = '<audio autoplay controls id="play"><source id="sr" src="galway.mp3" type="audio/ogg"></audio>';
+    }
+    if (a == 16) {
+        document.getElementById('ss').innerHTML = '<p height="30px">Wildest Dreams<br>by Taylor Swift</p>';
+        document.getElementById('player').innerHTML = '<audio autoplay controls id="play"><source id="sr" src="wildest.mp3" type="audio/ogg"></audio>';
+    }
+    if (a == 17) {
+        document.getElementById('ss').innerHTML = '<p height="30px">Paper Rings<br>by Taylor Swift</p>';
+        document.getElementById('player').innerHTML = '<audio autoplay controls id="play"><source id="sr" src="rings.mp3" type="audio/ogg"></audio>';
     }
         if (a == 21) {
             document.getElementById('ss').innerHTML = '<p height="30px">Raabta<br>by Pritam</p>';
@@ -49,15 +61,8 @@ document.getElementById("1").addEventListener("click", play1);
 document.getElementById("about").addEventListener("click", ab);
 document.getElementById("2").addEventListener("click", play2);
 document.getElementById("3").addEventListener("click", play3);
-document.getElementById("submit").addEventListener("click",cpin);
-function cpin()
-{
-pin=document.getElementById('epin').value;
-console.log(pin);
-if(pin==3207)
-document.getElementById('play3').style.display = "block";
 
-}
+
 function play1()
 {
 
