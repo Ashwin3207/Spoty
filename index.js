@@ -4,7 +4,7 @@ let a;
 
 function play(a) {
     if (a == 11) {
-        document.getElementById('ss').innerHTML = '<p>Perfect<br>by Ed Sheeran</p>';
+        document.getElementById('ss').innerHTML = '<br><p>Perfect<br>by Ed Sheeran</p>';
         document.getElementById('player').innerHTML = '<audio autoplay controls id="play"><source id="sr" src="perfect.mp3" type="audio/ogg"></audio>';
        
     }
@@ -33,18 +33,47 @@ function play(a) {
         document.getElementById('ss').innerHTML = '<p height="30px">Paper Rings<br>by Taylor Swift</p>';
         document.getElementById('player').innerHTML = '<audio autoplay controls id="play"><source id="sr" src="rings.mp3" type="audio/ogg"></audio>';
     }
+    if (a == 18) {
+        document.getElementById('ss').innerHTML = '<p height="30px">Blank Space<br>by Taylor Swift</p>';
+        document.getElementById('player').innerHTML = '<audio autoplay controls id="play"><source id="sr" src="blank.mp3" type="audio/ogg"></audio>';
+    }
+    if (a == 19) {
+        document.getElementById('ss').innerHTML = '<p height="30px">Ask me No Questions<br>by St. Bridget John</p>';
+        document.getElementById('player').innerHTML = '<audio autoplay controls id="play"><source id="sr" src="ask.mp3" type="audio/ogg"></audio>';
+    }
+    if (a == 20) {
+        document.getElementById('ss').innerHTML = '<p height="30px">Hurt<br>by Johnny Cash</p>';
+        document.getElementById('player').innerHTML = '<audio autoplay controls id="play"><source id="sr" src="hurt.mp3" type="audio/ogg"></audio>';
+    }
+
         if (a == 21) {
             document.getElementById('ss').innerHTML = '<p height="30px">Raabta<br>by Pritam</p>';
             document.getElementById('player').innerHTML = '<audio autoplay controls id="play"><source id="sr" src="Raabta.mp3" type="audio/ogg"></audio>';
         }
 
         if (a == 22) {
-            document.getElementById('ss').innerHTML = '<p height="30px">Jeena Jeena<br>by Atif Aslam</p>';
+            document.getElementById('ss').innerHTML = '<p height="30px"><br>Jeena Jeena<br>by Atif Aslam</p>';
             document.getElementById('player').innerHTML = '<audio autoplay controls id="play"><source id="sr" src="Jeena Jeena.mp3" type="audio/ogg"></audio>';
         }
         if (a == 23) {
             document.getElementById('ss').innerHTML = '<p height="30px">Banjaara<br>by Arijit Singh</p>';
             document.getElementById('player').innerHTML = '<audio autoplay controls id="play"><source id="sr" src="Banjaara.mp3" type="audio/ogg"></audio>';
+        }
+        if (a == 24) {
+            document.getElementById('ss').innerHTML = '<p height="30px">Nothing Holding Me Back<br>by Shawn Mendes</p>';
+            document.getElementById('player').innerHTML = '<audio autoplay controls id="play"><source id="sr" src="holding.mp3" type="audio/ogg"></audio>';
+        }
+        if (a == 25) {
+            document.getElementById('ss').innerHTML = '<p height="30px">Señorita<br>by Shawn Mendes,Camila Cabello</p>';
+            document.getElementById('player').innerHTML = '<audio autoplay controls id="play"><source id="sr" src="sen.mp3" type="audio/ogg"></audio>';
+        }
+        if (a == 26) {
+            document.getElementById('ss').innerHTML = '<p height="30px">Sweet but Psycho <br>by Ava Max</p>';
+            document.getElementById('player').innerHTML = '<audio autoplay controls id="play"><source id="sr" src="sbs.mp3" type="audio/ogg"></audio>';
+        }
+        if (a == 27) {
+            document.getElementById('ss').innerHTML = '<p height="30px">Falling<br>by Harry Styles</p>';
+            document.getElementById('player').innerHTML = '<audio autoplay controls id="play"><source id="sr" src="fall.mp3" type="audio/ogg"></audio>';
         }
     
 }
