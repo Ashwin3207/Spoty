@@ -1,0 +1,24 @@
+
+.nav
+{
+    width:28%;
+}
+#list
+{
+    width:72%;
+    
+}
+#list
+{
+    overflow:scroll;
+}
+#playlist
+{
+    margin:20px;
+    padding:0px;
+}
+.songs
+{   padding:0px;
+    width:100px;
+    height: 100px;
+}

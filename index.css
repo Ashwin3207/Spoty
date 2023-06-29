@@ -18,12 +18,17 @@ body
     display: flex;
     
 }
-.container
+#container
 {
-   left:80%;
+  
    position: relative;
    bottom:10px;
 }
+#container
+{
+   justify-self: right;
+}
+
 #head ul
 {
     
@@ -56,7 +61,7 @@ display: flex;
     background-color: rgb(44, 44, 44);
         height:600px;
         display: relative;
-        overflow:scroll;
+        
        
 }
 
@@ -181,4 +186,8 @@ form{
     height:130px;
     padding:10px;
     border-radius:25px;
+}
+#toggle
+{
+    margin-left:20px;
 }
